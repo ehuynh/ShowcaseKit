@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF1C095419EA0B72005FE15E /* CTDismissedAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1C095319EA0B72005FE15E /* CTDismissedAnimationController.m */; };
 		EF3D35FF19DF863300BD21E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3D35FE19DF863300BD21E3 /* main.m */; };
 		EF3D360219DF863300BD21E3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3D360119DF863300BD21E3 /* AppDelegate.m */; };
 		EF3D360519DF863300BD21E3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3D360419DF863300BD21E3 /* ViewController.m */; };
@@ -14,6 +15,9 @@
 		EF3D360A19DF863300BD21E3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF3D360919DF863300BD21E3 /* Images.xcassets */; };
 		EF3D360D19DF863300BD21E3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF3D360B19DF863300BD21E3 /* LaunchScreen.xib */; };
 		EF3D361919DF863300BD21E3 /* ShowcaseKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3D361819DF863300BD21E3 /* ShowcaseKitTests.m */; };
+		EF3D362819DF975C00BD21E3 /* CTPresentedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3D362719DF975C00BD21E3 /* CTPresentedViewController.m */; };
+		EF3D362B19DF977600BD21E3 /* CTPresenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3D362A19DF977600BD21E3 /* CTPresenterViewController.m */; };
+		EF3D363119DFAF4900BD21E3 /* CTPresenterAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3D363019DFAF4900BD21E3 /* CTPresenterAnimationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EF1C095219EA0B72005FE15E /* CTDismissedAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTDismissedAnimationController.h; sourceTree = "<group>"; };
+		EF1C095319EA0B72005FE15E /* CTDismissedAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTDismissedAnimationController.m; sourceTree = "<group>"; };
 		EF3D35F919DF863300BD21E3 /* ShowcaseKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShowcaseKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF3D35FD19DF863300BD21E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF3D35FE19DF863300BD21E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +46,12 @@
 		EF3D361219DF863300BD21E3 /* ShowcaseKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShowcaseKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF3D361719DF863300BD21E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF3D361819DF863300BD21E3 /* ShowcaseKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShowcaseKitTests.m; sourceTree = "<group>"; };
+		EF3D362619DF975C00BD21E3 /* CTPresentedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTPresentedViewController.h; sourceTree = "<group>"; };
+		EF3D362719DF975C00BD21E3 /* CTPresentedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTPresentedViewController.m; sourceTree = "<group>"; };
+		EF3D362919DF977600BD21E3 /* CTPresenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTPresenterViewController.h; sourceTree = "<group>"; };
+		EF3D362A19DF977600BD21E3 /* CTPresenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTPresenterViewController.m; sourceTree = "<group>"; };
+		EF3D362F19DFAF4900BD21E3 /* CTPresenterAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTPresenterAnimationController.h; sourceTree = "<group>"; };
+		EF3D363019DFAF4900BD21E3 /* CTPresenterAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTPresenterAnimationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +93,7 @@
 		EF3D35FB19DF863300BD21E3 /* ShowcaseKit */ = {
 			isa = PBXGroup;
 			children = (
+				EF3D362219DF93BB00BD21E3 /* CustomTransitions */,
 				EF3D360019DF863300BD21E3 /* AppDelegate.h */,
 				EF3D360119DF863300BD21E3 /* AppDelegate.m */,
 				EF3D360319DF863300BD21E3 /* ViewController.h */,
@@ -117,6 +130,21 @@
 				EF3D361719DF863300BD21E3 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF3D362219DF93BB00BD21E3 /* CustomTransitions */ = {
+			isa = PBXGroup;
+			children = (
+				EF3D362619DF975C00BD21E3 /* CTPresentedViewController.h */,
+				EF3D362719DF975C00BD21E3 /* CTPresentedViewController.m */,
+				EF3D362919DF977600BD21E3 /* CTPresenterViewController.h */,
+				EF3D362A19DF977600BD21E3 /* CTPresenterViewController.m */,
+				EF3D362F19DFAF4900BD21E3 /* CTPresenterAnimationController.h */,
+				EF3D363019DFAF4900BD21E3 /* CTPresenterAnimationController.m */,
+				EF1C095219EA0B72005FE15E /* CTDismissedAnimationController.h */,
+				EF1C095319EA0B72005FE15E /* CTDismissedAnimationController.m */,
+			);
+			path = CustomTransitions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,9 +247,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF3D363119DFAF4900BD21E3 /* CTPresenterAnimationController.m in Sources */,
 				EF3D360519DF863300BD21E3 /* ViewController.m in Sources */,
+				EF3D362819DF975C00BD21E3 /* CTPresentedViewController.m in Sources */,
+				EF3D362B19DF977600BD21E3 /* CTPresenterViewController.m in Sources */,
 				EF3D360219DF863300BD21E3 /* AppDelegate.m in Sources */,
 				EF3D35FF19DF863300BD21E3 /* main.m in Sources */,
+				EF1C095419EA0B72005FE15E /* CTDismissedAnimationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +444,7 @@
 				EF3D361E19DF863300BD21E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF3D361F19DF863300BD21E3 /* Build configuration list for PBXNativeTarget "ShowcaseKitTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +453,7 @@
 				EF3D362119DF863300BD21E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

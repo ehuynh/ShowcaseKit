@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CTPresentedViewController.h
 //  ShowcaseKit
 //
 //  Created by Edward Huynh on 4/10/2014.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UITableViewController
-
+@interface CTPresentedViewController : UIViewController
 
 @end
-
