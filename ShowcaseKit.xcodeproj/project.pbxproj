@@ -11,6 +11,9 @@
 		EF1C095F19EA2810005FE15E /* CTPresentedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1C095919EA2810005FE15E /* CTPresentedViewController.m */; };
 		EF1C096019EA2810005FE15E /* CTPresenterAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1C095B19EA2810005FE15E /* CTPresenterAnimationController.m */; };
 		EF1C096119EA2810005FE15E /* CTPresenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1C095D19EA2810005FE15E /* CTPresenterViewController.m */; };
+		EF1C096419EA3090005FE15E /* CustomTransitionsMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1C096319EA3090005FE15E /* CustomTransitionsMenu.m */; };
+		EF1C096719EA3B9E005FE15E /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1C096619EA3B9E005FE15E /* MenuViewController.m */; };
+		EF1C096A19EA3CB3005FE15E /* RootMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1C096919EA3CB3005FE15E /* RootMenu.m */; };
 		EF3D35FF19DF863300BD21E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3D35FE19DF863300BD21E3 /* main.m */; };
 		EF3D360219DF863300BD21E3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3D360119DF863300BD21E3 /* AppDelegate.m */; };
 		EF3D360519DF863300BD21E3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3D360419DF863300BD21E3 /* ViewController.m */; };
@@ -39,6 +42,14 @@
 		EF1C095B19EA2810005FE15E /* CTPresenterAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTPresenterAnimationController.m; sourceTree = "<group>"; };
 		EF1C095C19EA2810005FE15E /* CTPresenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTPresenterViewController.h; sourceTree = "<group>"; };
 		EF1C095D19EA2810005FE15E /* CTPresenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTPresenterViewController.m; sourceTree = "<group>"; };
+		EF1C096219EA3090005FE15E /* CustomTransitionsMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTransitionsMenu.h; sourceTree = "<group>"; };
+		EF1C096319EA3090005FE15E /* CustomTransitionsMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTransitionsMenu.m; sourceTree = "<group>"; };
+		EF1C096519EA3B9E005FE15E /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		EF1C096619EA3B9E005FE15E /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		EF1C096819EA3CB3005FE15E /* RootMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootMenu.h; sourceTree = "<group>"; };
+		EF1C096919EA3CB3005FE15E /* RootMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootMenu.m; sourceTree = "<group>"; };
+		EF1C096B19EA48A1005FE15E /* MenuDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuDelegate.h; sourceTree = "<group>"; };
+		EF1C096C19EA4950005FE15E /* Menu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Menu.h; sourceTree = "<group>"; };
 		EF3D35F919DF863300BD21E3 /* ShowcaseKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShowcaseKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF3D35FD19DF863300BD21E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF3D35FE19DF863300BD21E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -117,6 +128,12 @@
 				EF3D360919DF863300BD21E3 /* Images.xcassets */,
 				EF3D360B19DF863300BD21E3 /* LaunchScreen.xib */,
 				EF3D35FC19DF863300BD21E3 /* Supporting Files */,
+				EF1C096519EA3B9E005FE15E /* MenuViewController.h */,
+				EF1C096619EA3B9E005FE15E /* MenuViewController.m */,
+				EF1C096819EA3CB3005FE15E /* RootMenu.h */,
+				EF1C096919EA3CB3005FE15E /* RootMenu.m */,
+				EF1C096B19EA48A1005FE15E /* MenuDelegate.h */,
+				EF1C096C19EA4950005FE15E /* Menu.h */,
 			);
 			path = ShowcaseKit;
 			sourceTree = "<group>";
@@ -151,6 +168,8 @@
 			isa = PBXGroup;
 			children = (
 				EF1C095519EA25F9005FE15E /* Presentation */,
+				EF1C096219EA3090005FE15E /* CustomTransitionsMenu.h */,
+				EF1C096319EA3090005FE15E /* CustomTransitionsMenu.m */,
 			);
 			path = CustomTransitions;
 			sourceTree = "<group>";
@@ -255,8 +274,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF1C096419EA3090005FE15E /* CustomTransitionsMenu.m in Sources */,
+				EF1C096719EA3B9E005FE15E /* MenuViewController.m in Sources */,
 				EF1C096019EA2810005FE15E /* CTPresenterAnimationController.m in Sources */,
 				EF3D360519DF863300BD21E3 /* ViewController.m in Sources */,
+				EF1C096A19EA3CB3005FE15E /* RootMenu.m in Sources */,
 				EF1C096119EA2810005FE15E /* CTPresenterViewController.m in Sources */,
 				EF3D360219DF863300BD21E3 /* AppDelegate.m in Sources */,
 				EF1C095F19EA2810005FE15E /* CTPresentedViewController.m in Sources */,

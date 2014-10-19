@@ -8,7 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UITableViewController
+#import "MenuViewController.h"
+
+@interface ViewController : MenuViewController
 
 
 @end
