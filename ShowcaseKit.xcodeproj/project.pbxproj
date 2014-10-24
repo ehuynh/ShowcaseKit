@@ -23,6 +23,8 @@
 		EF3D361919DF863300BD21E3 /* ShowcaseKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3D361819DF863300BD21E3 /* ShowcaseKitTests.m */; };
 		EFB7832419F4815B0037DB0D /* SizeClasessMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB7832319F4815B0037DB0D /* SizeClasessMenu.m */; };
 		EFB7832619F4829D0037DB0D /* SizeClasses.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFB7832519F4829D0037DB0D /* SizeClasses.storyboard */; };
+		EFE54C4F19F77CCF0001B318 /* SizeClassesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE54C4E19F77CCF0001B318 /* SizeClassesViewController.m */; };
+		EFE54C5219F78F320001B318 /* SizeClassesContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE54C5119F78F320001B318 /* SizeClassesContainerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +70,10 @@
 		EFB7832219F4815B0037DB0D /* SizeClasessMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SizeClasessMenu.h; sourceTree = "<group>"; };
 		EFB7832319F4815B0037DB0D /* SizeClasessMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SizeClasessMenu.m; sourceTree = "<group>"; };
 		EFB7832519F4829D0037DB0D /* SizeClasses.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SizeClasses.storyboard; sourceTree = "<group>"; };
+		EFE54C4D19F77CCF0001B318 /* SizeClassesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SizeClassesViewController.h; sourceTree = "<group>"; };
+		EFE54C4E19F77CCF0001B318 /* SizeClassesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SizeClassesViewController.m; sourceTree = "<group>"; };
+		EFE54C5019F78F320001B318 /* SizeClassesContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SizeClassesContainerViewController.h; sourceTree = "<group>"; };
+		EFE54C5119F78F320001B318 /* SizeClassesContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SizeClassesContainerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +192,10 @@
 				EFB7832219F4815B0037DB0D /* SizeClasessMenu.h */,
 				EFB7832319F4815B0037DB0D /* SizeClasessMenu.m */,
 				EFB7832519F4829D0037DB0D /* SizeClasses.storyboard */,
+				EFE54C4D19F77CCF0001B318 /* SizeClassesViewController.h */,
+				EFE54C4E19F77CCF0001B318 /* SizeClassesViewController.m */,
+				EFE54C5019F78F320001B318 /* SizeClassesContainerViewController.h */,
+				EFE54C5119F78F320001B318 /* SizeClassesContainerViewController.m */,
 			);
 			path = SizeClasses;
 			sourceTree = "<group>";
@@ -295,8 +305,10 @@
 				EF1C096719EA3B9E005FE15E /* MenuViewController.m in Sources */,
 				EF1C096019EA2810005FE15E /* CTPresenterAnimationController.m in Sources */,
 				EF3D360519DF863300BD21E3 /* ViewController.m in Sources */,
+				EFE54C5219F78F320001B318 /* SizeClassesContainerViewController.m in Sources */,
 				EF1C096A19EA3CB3005FE15E /* RootMenu.m in Sources */,
 				EF1C096119EA2810005FE15E /* CTPresenterViewController.m in Sources */,
+				EFE54C4F19F77CCF0001B318 /* SizeClassesViewController.m in Sources */,
 				EF3D360219DF863300BD21E3 /* AppDelegate.m in Sources */,
 				EF1C095F19EA2810005FE15E /* CTPresentedViewController.m in Sources */,
 				EF1C095E19EA2810005FE15E /* CTDismissedAnimationController.m in Sources */,
