@@ -22,8 +22,9 @@
 		EF3D360D19DF863300BD21E3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF3D360B19DF863300BD21E3 /* LaunchScreen.xib */; };
 		EF3D361919DF863300BD21E3 /* ShowcaseKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3D361819DF863300BD21E3 /* ShowcaseKitTests.m */; };
 		EF52D83C1A025264003D986A /* IBMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = EF52D83B1A025264003D986A /* IBMenu.m */; };
-		EF52D8411A025478003D986A /* IBDesignableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF52D83F1A025478003D986A /* IBDesignableViewController.m */; };
-		EF52D8421A025478003D986A /* IBDesignableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF52D8401A025478003D986A /* IBDesignableViewController.xib */; };
+		EF52D8411A025478003D986A /* IBLiveRenderingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF52D83F1A025478003D986A /* IBLiveRenderingViewController.m */; };
+		EF52D8421A025478003D986A /* IBLiveRenderingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF52D8401A025478003D986A /* IBLiveRenderingViewController.xib */; };
+		EF52D8451A025730003D986A /* IBLiveRenderingSubview.m in Sources */ = {isa = PBXBuildFile; fileRef = EF52D8441A025730003D986A /* IBLiveRenderingSubview.m */; };
 		EFB7832419F4815B0037DB0D /* SizeClasessMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB7832319F4815B0037DB0D /* SizeClasessMenu.m */; };
 		EFB7832619F4829D0037DB0D /* SizeClasses.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFB7832519F4829D0037DB0D /* SizeClasses.storyboard */; };
 		EFE54C4F19F77CCF0001B318 /* SizeClassesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE54C4E19F77CCF0001B318 /* SizeClassesViewController.m */; };
@@ -72,9 +73,11 @@
 		EF3D361819DF863300BD21E3 /* ShowcaseKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShowcaseKitTests.m; sourceTree = "<group>"; };
 		EF52D83A1A025264003D986A /* IBMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBMenu.h; sourceTree = "<group>"; };
 		EF52D83B1A025264003D986A /* IBMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBMenu.m; sourceTree = "<group>"; };
-		EF52D83E1A025478003D986A /* IBDesignableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBDesignableViewController.h; sourceTree = "<group>"; };
-		EF52D83F1A025478003D986A /* IBDesignableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBDesignableViewController.m; sourceTree = "<group>"; };
-		EF52D8401A025478003D986A /* IBDesignableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IBDesignableViewController.xib; sourceTree = "<group>"; };
+		EF52D83E1A025478003D986A /* IBLiveRenderingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBLiveRenderingViewController.h; sourceTree = "<group>"; };
+		EF52D83F1A025478003D986A /* IBLiveRenderingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBLiveRenderingViewController.m; sourceTree = "<group>"; };
+		EF52D8401A025478003D986A /* IBLiveRenderingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IBLiveRenderingViewController.xib; sourceTree = "<group>"; };
+		EF52D8431A025730003D986A /* IBLiveRenderingSubview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBLiveRenderingSubview.h; sourceTree = "<group>"; };
+		EF52D8441A025730003D986A /* IBLiveRenderingSubview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBLiveRenderingSubview.m; sourceTree = "<group>"; };
 		EFB7832219F4815B0037DB0D /* SizeClasessMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SizeClasessMenu.h; sourceTree = "<group>"; };
 		EFB7832319F4815B0037DB0D /* SizeClasessMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SizeClasessMenu.m; sourceTree = "<group>"; };
 		EFB7832519F4829D0037DB0D /* SizeClasses.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SizeClasses.storyboard; sourceTree = "<group>"; };
@@ -208,9 +211,11 @@
 		EF52D83D1A02543F003D986A /* IBDesignable */ = {
 			isa = PBXGroup;
 			children = (
-				EF52D83E1A025478003D986A /* IBDesignableViewController.h */,
-				EF52D83F1A025478003D986A /* IBDesignableViewController.m */,
-				EF52D8401A025478003D986A /* IBDesignableViewController.xib */,
+				EF52D83E1A025478003D986A /* IBLiveRenderingViewController.h */,
+				EF52D83F1A025478003D986A /* IBLiveRenderingViewController.m */,
+				EF52D8401A025478003D986A /* IBLiveRenderingViewController.xib */,
+				EF52D8431A025730003D986A /* IBLiveRenderingSubview.h */,
+				EF52D8441A025730003D986A /* IBLiveRenderingSubview.m */,
 			);
 			path = IBDesignable;
 			sourceTree = "<group>";
@@ -310,7 +315,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF3D360819DF863300BD21E3 /* Main.storyboard in Resources */,
-				EF52D8421A025478003D986A /* IBDesignableViewController.xib in Resources */,
+				EF52D8421A025478003D986A /* IBLiveRenderingViewController.xib in Resources */,
 				EF3D360D19DF863300BD21E3 /* LaunchScreen.xib in Resources */,
 				EFB7832619F4829D0037DB0D /* SizeClasses.storyboard in Resources */,
 				EF3D360A19DF863300BD21E3 /* Images.xcassets in Resources */,
@@ -339,12 +344,13 @@
 				EF1C096A19EA3CB3005FE15E /* RootMenu.m in Sources */,
 				EF1C096119EA2810005FE15E /* CTPresenterViewController.m in Sources */,
 				EFE54C4F19F77CCF0001B318 /* SizeClassesViewController.m in Sources */,
-				EF52D8411A025478003D986A /* IBDesignableViewController.m in Sources */,
+				EF52D8411A025478003D986A /* IBLiveRenderingViewController.m in Sources */,
 				EF3D360219DF863300BD21E3 /* AppDelegate.m in Sources */,
 				EF52D83C1A025264003D986A /* IBMenu.m in Sources */,
 				EF1C095F19EA2810005FE15E /* CTPresentedViewController.m in Sources */,
 				EF1C095E19EA2810005FE15E /* CTDismissedAnimationController.m in Sources */,
 				EF3D35FF19DF863300BD21E3 /* main.m in Sources */,
+				EF52D8451A025730003D986A /* IBLiveRenderingSubview.m in Sources */,
 				EFB7832419F4815B0037DB0D /* SizeClasessMenu.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

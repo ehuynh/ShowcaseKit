@@ -8,7 +8,7 @@
 
 #import "IBMenu.h"
 
-#import "IBDesignableViewController.h"
+#import "IBLiveRenderingViewController.h"
 
 NS_ENUM(NSUInteger, IBExamples)
 {
@@ -29,7 +29,7 @@ NS_ENUM(NSUInteger, IBExamples)
     self = [super init];
     
     if (self) {
-        self.menuItems = @[@"IB Designable"];
+        self.menuItems = @[@"Live Rendering"];
     }
     
     return self;
@@ -41,7 +41,7 @@ NS_ENUM(NSUInteger, IBExamples)
 
     switch (index) {
         case IBExamplesIBDesignable:
-            vc = [IBDesignableViewController new];
+            vc = [IBLiveRenderingViewController new];
             break;
         default:
             break;

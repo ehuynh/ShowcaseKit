@@ -1,5 +1,5 @@
 //
-//  IBDesignableViewController.h
+//  IBLiveRenderingSubview.h
 //  ShowcaseKit
 //
 //  Created by Edward Huynh on 30/10/2014.
@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface IBDesignableViewController : UIViewController
+IB_DESIGNABLE
+@interface IBLiveRenderingSubview : UIView
+
+@property (nonatomic, strong) IBInspectable UIColor *textColor;
 
 @end
