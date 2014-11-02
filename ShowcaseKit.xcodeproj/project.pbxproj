@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF0615711A05F6E600F344CD /* SecurityMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0615701A05F6E600F344CD /* SecurityMenu.m */; };
+		EF0615761A05F7F400F344CD /* TouchIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0615741A05F7F400F344CD /* TouchIDViewController.m */; };
+		EF0615771A05F7F400F344CD /* TouchIDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF0615751A05F7F400F344CD /* TouchIDViewController.xib */; };
 		EF1C095E19EA2810005FE15E /* CTDismissedAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1C095719EA2810005FE15E /* CTDismissedAnimationController.m */; };
 		EF1C095F19EA2810005FE15E /* CTPresentedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1C095919EA2810005FE15E /* CTPresentedViewController.m */; };
 		EF1C096019EA2810005FE15E /* CTPresenterAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1C095B19EA2810005FE15E /* CTPresenterAnimationController.m */; };
@@ -42,6 +45,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EF06156F1A05F6E600F344CD /* SecurityMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecurityMenu.h; sourceTree = "<group>"; };
+		EF0615701A05F6E600F344CD /* SecurityMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecurityMenu.m; sourceTree = "<group>"; };
+		EF0615731A05F7F400F344CD /* TouchIDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchIDViewController.h; sourceTree = "<group>"; };
+		EF0615741A05F7F400F344CD /* TouchIDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchIDViewController.m; sourceTree = "<group>"; };
+		EF0615751A05F7F400F344CD /* TouchIDViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TouchIDViewController.xib; sourceTree = "<group>"; };
 		EF1C095619EA2810005FE15E /* CTDismissedAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTDismissedAnimationController.h; sourceTree = "<group>"; };
 		EF1C095719EA2810005FE15E /* CTDismissedAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTDismissedAnimationController.m; sourceTree = "<group>"; };
 		EF1C095819EA2810005FE15E /* CTPresentedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTPresentedViewController.h; sourceTree = "<group>"; };
@@ -105,6 +113,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EF06156E1A05F62E00F344CD /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				EF0615721A05F7D700F344CD /* TouchID */,
+				EF06156F1A05F6E600F344CD /* SecurityMenu.h */,
+				EF0615701A05F6E600F344CD /* SecurityMenu.m */,
+			);
+			path = Security;
+			sourceTree = "<group>";
+		};
+		EF0615721A05F7D700F344CD /* TouchID */ = {
+			isa = PBXGroup;
+			children = (
+				EF0615731A05F7F400F344CD /* TouchIDViewController.h */,
+				EF0615741A05F7F400F344CD /* TouchIDViewController.m */,
+				EF0615751A05F7F400F344CD /* TouchIDViewController.xib */,
+			);
+			path = TouchID;
+			sourceTree = "<group>";
+		};
 		EF1C095519EA25F9005FE15E /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
@@ -141,6 +169,7 @@
 		EF3D35FB19DF863300BD21E3 /* ShowcaseKit */ = {
 			isa = PBXGroup;
 			children = (
+				EF06156E1A05F62E00F344CD /* Security */,
 				EF52D8391A025232003D986A /* InterfaceBuilder */,
 				EFB7832119F480D00037DB0D /* SizeClasses */,
 				EF3D362219DF93BB00BD21E3 /* CustomTransitions */,
@@ -317,6 +346,7 @@
 				EF3D360819DF863300BD21E3 /* Main.storyboard in Resources */,
 				EF52D8421A025478003D986A /* IBLiveRenderingViewController.xib in Resources */,
 				EF3D360D19DF863300BD21E3 /* LaunchScreen.xib in Resources */,
+				EF0615771A05F7F400F344CD /* TouchIDViewController.xib in Resources */,
 				EFB7832619F4829D0037DB0D /* SizeClasses.storyboard in Resources */,
 				EF3D360A19DF863300BD21E3 /* Images.xcassets in Resources */,
 			);
@@ -348,8 +378,10 @@
 				EF3D360219DF863300BD21E3 /* AppDelegate.m in Sources */,
 				EF52D83C1A025264003D986A /* IBMenu.m in Sources */,
 				EF1C095F19EA2810005FE15E /* CTPresentedViewController.m in Sources */,
+				EF0615711A05F6E600F344CD /* SecurityMenu.m in Sources */,
 				EF1C095E19EA2810005FE15E /* CTDismissedAnimationController.m in Sources */,
 				EF3D35FF19DF863300BD21E3 /* main.m in Sources */,
+				EF0615761A05F7F400F344CD /* TouchIDViewController.m in Sources */,
 				EF52D8451A025730003D986A /* IBLiveRenderingSubview.m in Sources */,
 				EFB7832419F4815B0037DB0D /* SizeClasessMenu.m in Sources */,
 			);

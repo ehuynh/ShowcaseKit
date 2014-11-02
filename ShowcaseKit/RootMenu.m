@@ -12,12 +12,14 @@
 #import "MenuViewController.h"
 #import "SizeClasessMenu.h"
 #import "IBMenu.h"
+#import "SecurityMenu.h"
 
 NS_ENUM(NSUInteger, ShowcaseExamples)
 {
     ShowcaseExamplesCT,
     ShowcaseExamplesSizeClasses,
     ShowcaseExamplesInterfaceBuilder,
+    ShowcaseExamplesSecurity,
     ShowcaseExamplesCount
 };
 
@@ -34,7 +36,10 @@ NS_ENUM(NSUInteger, ShowcaseExamples)
     self = [super init];
     
     if (self) {
-        self.menuItems = @[@"Custom Transitions", @"Size Classes", @"Interface Builder"];
+        self.menuItems = @[@"Custom Transitions",
+                           @"Size Classes",
+                           @"Interface Builder",
+                           @"Security"];
     }
     
     return self;
@@ -54,6 +59,8 @@ NS_ENUM(NSUInteger, ShowcaseExamples)
         case ShowcaseExamplesInterfaceBuilder:
             menu = [IBMenu new];
             break;
+        case ShowcaseExamplesSecurity:
+            menu = [SecurityMenu new];
         default:
             break;
     }
