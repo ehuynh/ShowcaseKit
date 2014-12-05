@@ -9,10 +9,12 @@
 #import "CollectionViewsMenu.h"
 
 #import "BasicCollectionViewController.h"
+#import "TableCollectionViewController.h"
 
 NS_ENUM(NSUInteger, CollectionViewsItems)
 {
     CollectionViewsBasic,
+    CollectionViewsTable,
     CollectionVIewsCount
 };
 
@@ -22,7 +24,7 @@ NS_ENUM(NSUInteger, CollectionViewsItems)
 
 - (NSArray *)menuItems
 {
-    return @[@"Basic"];
+    return @[@"Basic", @"Table View"];
 }
 
 - (UIViewController *)viewControllerForMenuItemAtIndex:(NSUInteger)index
@@ -32,6 +34,9 @@ NS_ENUM(NSUInteger, CollectionViewsItems)
     switch (index) {
         case CollectionViewsBasic:
             vc = [BasicCollectionViewController new];
+            break;
+        case CollectionViewsTable:
+            vc = [TableCollectionViewController new];
             break;
         default:
             break;
